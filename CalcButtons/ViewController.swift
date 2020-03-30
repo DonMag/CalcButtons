@@ -192,8 +192,6 @@ class ViewController: UIViewController {
 		rButton = RoundButton()
 		rButton.translatesAutoresizingMaskIntoConstraints = false
 		rButton.backgroundColor = cButton.backColor
-//		rButton.setTitleColor(cButton.foreColor, for: .normal)
-//		rButton.setTitle(cButton.normalTitle, for: .normal)
 		
 		normAttributes = [
 			.foregroundColor : cButton.foreColor,
